@@ -1,0 +1,33 @@
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Type</th>
+      <th>Amount</th>
+      <th>Price</th>
+      <th>Name</th>
+      <th>Expiration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>123</td>
+      <td>Paper</td>
+      <td>10 pcs.</td>
+      <td>$10</td>
+      <td>Premium Copier paper</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>321</td>
+      <td>Paper</td>
+      <td>20 pcs.</td>
+      <td>$20</td>
+      <td>Extra Copier paper</td>
+      <td>None</td>
+    </tr>
+  </tbody>
+
+  Print Amount:
+
+  /table/thead/tr/th[value="Amount"]

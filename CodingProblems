@@ -1,0 +1,8 @@
+1. ((x+y)(y))
+Create parser which checks for balanced parentheses
+
+Given a set of filenames in a txt file, write a program to 
+
+1. print each file name
+2. remove files from the file system
+
