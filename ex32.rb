@@ -14,9 +14,13 @@ the_count.each {|i| puts "This is count #{i}" }
 #same as above, but in more ruby style
 #this and the next one are the more preferred way Ruby for-loops are written
 
-fruits.each do |fruit|
-	puts "A fruit of type: #{fruit}"
-end
+# fruits.each do |fruit|
+# 	puts "A fruit of type: #{fruit}"
+# end
+
+# Another way of writing the above loop.
+
+fruits.each {|fruit| puts"A fruit of tyep: #{fruit}"}
 
 # also we can go through mixed lists too
 # note this is yet another style, exactly like above
